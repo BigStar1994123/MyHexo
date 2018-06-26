@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Patrick_Hexo
 subtitle:
 description:
 author: John Doe
@@ -80,3 +80,5 @@ deploy:
   type: git
   repo: https://Github.com/BigStar1994123/bigstar1994123.github.io/
   branch: master
+  name: BigStar1994123
+  email: BigStar1994123@gmail.com
