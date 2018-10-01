@@ -1,0 +1,62 @@
+9/14 alpha version; 11/14 Online; 12 Bravo Event
+-------------------------------------------------------
+Publish 時 PresetGameSetting 需動作RRRRR
+
+存Mission Temp Level, Finish & SupplyPoint CD Time
+
+Reward Get 如果包包滿了機率降低
+
+40等的時候 missionstart會 Convert '' to int fail
+
+給地圖點的時候如果CLIENT已經玩過，就不寄該點位給前端。
+
+點位+Enable Adjust SupplyType 0,1 來表示大小補給點
+
+任務等級 屬性 在地圖上顯示 
+
+信箱超過上限 自動刪除最舊的 & Mail 時間限制刪除
+
+英雄徽章升級 API
+
+補給站 GET API 如果二選一 刪除其一
+
+Error Code
+------------------------------------
+Console Application Insights
+
+MongoDB Log
+
+Mission Point ID is unique.
+Bravo Point ID is not unique.
+Supply Point ID is unique and always.
+
+Bravo Event CD Time 不要 Hardcode 300秒
+
+在GameStart給所有新手教學
+------------------------------------
+(OK)PlayerData -LevelupExp
+(OK) + LevelupExpList
+(OK)MissionEnd 
+(OK)+ IsLevelUp : boolean
+(OK)+ LatestExp : int
+(OK)給英雄Level所需徽章表給前端
+(OK)給Level經驗值表給前端
+(OK)MissionEnd 計算Level Up Event
+(OK)DraftExchange + int Level
+(OK)Fragment is 看過 by true
+(OK)主地圖關卡等級浮動 -40移除
+(OK)GetPlayerData Refresh Stamina
+(OK)設計圖DTO加等級、遊戲初始給設計圖所需要的錢加在GameSetting內 要幾個升級的DATA也要給前端
+(OK)設計圖DTO加升級表
+(OK 20180920)playerInfoData + medal
+(OK 20180920)MissionPrepare + 屬性  Controller 改
+(OK)GetOneHero API
+(OK)Get E罐那條
+(OK)fragment heroid
+(OK)初始四件裝備 數值
+(Dto OK)穿脫裝備改一個且改為LIST
+(Dto OK)Hero + Api for prototypeid + 收集冊ID + 風格 + 元素 + modelId + iconId + black iconId + feeding
+(Dto OK)fragment count >> quantity, string >> int, delete description
+(Dto OK)E bottle in HeroList
+(Dto OK)Fragment + position
+(OK)Equipment Excel Delete Draft 對應
