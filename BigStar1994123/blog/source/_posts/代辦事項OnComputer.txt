@@ -1,5 +1,7 @@
 9/14 alpha version; 11/14 Online; 12 Bravo Event
 -------------------------------------------------------
+改BravoEventService 去配合地圖點位熊讚點的改動
+
 Publish 時 PresetGameSetting 需動作RRRRR
 
 存Mission Temp Level, Finish & SupplyPoint CD Time
@@ -30,10 +32,11 @@ Mission Point ID is unique.
 Bravo Point ID is not unique.
 Supply Point ID is unique and always.
 
-Bravo Event CD Time 不要 Hardcode 300秒
-
 在GameStart給所有新手教學
 ------------------------------------
+(OK)Bravo Event CD Time 不要 Hardcode 300秒
+(OK)熊讚點位DTO改PlaceId
+(OK)檢查如果BravoEventEntity not exist >> null or 不存在
 (OK)PlayerData -LevelupExp
 (OK) + LevelupExpList
 (OK)MissionEnd 
