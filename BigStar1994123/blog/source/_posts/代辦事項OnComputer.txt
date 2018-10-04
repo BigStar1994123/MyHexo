@@ -1,5 +1,7 @@
 9/14 alpha version; 11/14 Online; 12 Bravo Event
 -------------------------------------------------------
+熊讚如何贈送給玩家
+
 改BravoEventService 去配合地圖點位熊讚點的改動
 
 Publish 時 PresetGameSetting 需動作RRRRR
