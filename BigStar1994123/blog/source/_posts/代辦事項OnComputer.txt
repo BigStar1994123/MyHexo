@@ -1,5 +1,12 @@
 9/14 alpha version; 11/14 Online; 12 Bravo Event
 -------------------------------------------------------
+IRewardItemDto 
+ ++ int Stamina
+
+改熊讚CD時間
+
+MongoDB Data To Dto 使用 AutoMapper 
+
 熊讚如何贈送給玩家
 
 改BravoEventService 去配合地圖點位熊讚點的改動
