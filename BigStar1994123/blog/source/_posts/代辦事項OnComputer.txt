@@ -1,21 +1,32 @@
 9/14 alpha version; 11/14 Online; 12 Bravo Event
 -------------------------------------------------------
-IRewardItemDto 
- ++ int Stamina
+EventData++
+EventDataListResponse++
+
+EventAnnouncement
+ ImgUrl >> ImageIconId
+
+BravoPointTempList 改到 BravoEntities
+
+API Device >> Facebook or Google 綁定
 
 改熊讚CD時間
+
+PlayerDataService 改 BravoEventService不遞迴
+
+Service 改 throw custom exception
 
 MongoDB Data To Dto 使用 AutoMapper 
 
 熊讚如何贈送給玩家
+
+Api DeleteEquipment
 
 改BravoEventService 去配合地圖點位熊讚點的改動
 
 Publish 時 PresetGameSetting 需動作RRRRR
 
 存Mission Temp Level, Finish & SupplyPoint CD Time
-
-Reward Get 如果包包滿了機率降低
 
 40等的時候 missionstart會 Convert '' to int fail
 
@@ -25,7 +36,7 @@ Reward Get 如果包包滿了機率降低
 
 任務等級 屬性 在地圖上顯示 
 
-信箱超過上限 自動刪除最舊的 & Mail 時間限制刪除
+信箱超過上限 自動刪除最舊的 
 
 英雄徽章升級 API
 
@@ -43,6 +54,25 @@ Supply Point ID is unique and always.
 
 在GameStart給所有新手教學
 ------------------------------------
+RewardItem
+ ++ int Stamina
+
+Mail 
+ ++ string Sender
+
+BravoPlayResponse, BravoExchangeResponse
+ -- Success
+ -- FailReason
+
+DraftExchangeResponse, HeroDeleteResponse, UseEBottleResponse, HeroEquipEquipmentResponse, HeroLevelUpResponse,
+FragmentExchangeResponse, FragmentSetReadResponse, UseItemRecoverHpResponse, UseItemFeedResponse, ItemDeleteResponse,
+ReadMailResponse, MailDeleteResponse, ReceiveMailRewardItemsResponse, SetUserDisplayNameResponse
+ -- IsSuccess
+
+SetSkipNewbieTuroialResponse
+ -- Success 
+(OK)Mail 時間限制刪除
+(OK)Reward Get 如果包包滿了機率降低
 (OK)Bravo Event CD Time 不要 Hardcode 300秒
 (OK)熊讚點位DTO改PlaceId
 (OK)檢查如果BravoEventEntity not exist >> null or 不存在
