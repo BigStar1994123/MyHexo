@@ -1,28 +1,22 @@
 9/14 alpha version; 11/14 Online; 12 Bravo Event
 -------------------------------------------------------
-EventData++
-EventDataListResponse++
+BravoPlayRequeset >> BravoPlayRequest
+ ++ IGeoLocationDto GeoLocation
 
-EventAnnouncement
- ImgUrl >> ImageIconId
+Hero
+ ++ Description
 
-BravoPointTempList 改到 BravoEntities
+加一個測試版Server
+
+Azure Function App Proxy 404 not found, re-save then OK.
 
 API Device >> Facebook or Google 綁定
-
-改熊讚CD時間
-
-PlayerDataService 改 BravoEventService不遞迴
 
 Service 改 throw custom exception
 
 MongoDB Data To Dto 使用 AutoMapper 
 
 熊讚如何贈送給玩家
-
-Api DeleteEquipment
-
-改BravoEventService 去配合地圖點位熊讚點的改動
 
 Publish 時 PresetGameSetting 需動作RRRRR
 
@@ -38,10 +32,6 @@ Publish 時 PresetGameSetting 需動作RRRRR
 
 信箱超過上限 自動刪除最舊的 
 
-英雄徽章升級 API
-
-補給站 GET API 如果二選一 刪除其一
-
 Error Code
 ------------------------------------
 Console Application Insights
@@ -54,6 +44,31 @@ Supply Point ID is unique and always.
 
 在GameStart給所有新手教學
 ------------------------------------
+(OK)Uint 全部去除 改為 int
+(OK)PlayerDataService 改 BravoEventService不遞迴
+(OK)改BravoEventService 去配合地圖點位熊讚點的改動
+
+HeroMissionStartResponse
+ -- IsNewbie
+
+SetSkipNewbieTuroialRequest
+ -- int SkillType
+ ++ string SkipName
+
+GetPlayerDataResponse
+IList<int> NewbieTutorialPass >> IList<string> NewbieTutorialPass
+
+EventData++
+EventDataListResponse++
+
+EventAnnouncement
+ ImgUrl >> ImageIconId
+
+(OK)BravoPointTempList 改到 BravoEntities
+(OK)Api DeleteEquipment
+(OK)英雄徽章升級 API
+(OK)補給站 GET API 如果二選一 刪除其一
+(OK)改熊讚CD時間
 RewardItem
  ++ int Stamina
 
