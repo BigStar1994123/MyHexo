@@ -1,12 +1,10 @@
 9/14 alpha version; 11/14 Online; 12 Bravo Event
 -------------------------------------------------------
-BravoPlayRequeset >> BravoPlayRequest
- ++ IGeoLocationDto GeoLocation
+Facebook / Google 後端認證
 
-Hero
- ++ Description
+Staging Server setting auto
 
-加一個測試版Server
+熊讚點位100M檢查
 
 Azure Function App Proxy 404 not found, re-save then OK.
 
@@ -44,6 +42,23 @@ Supply Point ID is unique and always.
 
 在GameStart給所有新手教學
 ------------------------------------
+api/signup >> api/identity/signup
+ ++ string AccessToken
+api/login >> api/identity/login
+ ++ string AccessToken
+
+++ api/identity/bind
+
+(OK)加一個測試版Server
+(OK)做Download QRCode
+(OK)一堆 Azure Function 轉址網址
+
+BravoPlayRequeset >> BravoPlayRequest
+ ++ IGeoLocationDto GeoLocation
+
+Hero
+ ++ Description
+
 (OK)Uint 全部去除 改為 int
 (OK)PlayerDataService 改 BravoEventService不遞迴
 (OK)改BravoEventService 去配合地圖點位熊讚點的改動
