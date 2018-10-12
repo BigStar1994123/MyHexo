@@ -1,22 +1,24 @@
 9/14 alpha version; 11/14 Online; 12 Bravo Event
 -------------------------------------------------------
+InitAndSavePresetPlayerInfo async await problem
+
+GetValidClaimsAsync 換個名字 容易誤會耶
+
+有時候 presetPocketHiRole no toki, Role Admin 無法加入
+
+Delete Login & Signup Controller
+
 Facebook / Google 後端認證
 
-Staging Server setting auto
+Publish Server Init GamSetting auto >> CICD
 
 熊讚點位100M檢查
-
-Azure Function App Proxy 404 not found, re-save then OK.
-
-API Device >> Facebook or Google 綁定
 
 Service 改 throw custom exception
 
 MongoDB Data To Dto 使用 AutoMapper 
 
 熊讚如何贈送給玩家
-
-Publish 時 PresetGameSetting 需動作RRRRR
 
 存Mission Temp Level, Finish & SupplyPoint CD Time
 
@@ -42,6 +44,9 @@ Supply Point ID is unique and always.
 
 在GameStart給所有新手教學
 ------------------------------------
+(OK) API Device >> Facebook or Google 綁定
+(Told Bao)Azure Function App Proxy 404 not found, re-save then OK.
+
 api/signup >> api/identity/signup
  ++ string AccessToken
 api/login >> api/identity/login
