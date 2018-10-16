@@ -1,18 +1,33 @@
 9/14 alpha version; 11/14 Online; 12 Bravo Event
 -------------------------------------------------------
-InitAndSavePresetPlayerInfo async await problem
+++ api/eventbravo/announcements
 
-GetValidClaimsAsync 換個名字 容易誤會耶
+++ Dto BravoAnnouncementResponse
+ string Title
+ string Content
+
+BravoPoint
+ ++ Name
+
+熊讚點灑花 >> 資料庫查找熊讚點 && 加入時間控制
+
+1/4 才能兌換熊讚市政府版，在之前三天對收集15個的人狂跳通知
+
+
+
+熊讚點位+傳地點的中文
+
+SetToturialPass return latest list
+
+重複登入Check
+
+錯誤碼多語系
 
 有時候 presetPocketHiRole no toki, Role Admin 無法加入
-
-Delete Login & Signup Controller
 
 Facebook / Google 後端認證
 
 Publish Server Init GamSetting auto >> CICD
-
-熊讚點位100M檢查
 
 Service 改 throw custom exception
 
@@ -44,6 +59,18 @@ Supply Point ID is unique and always.
 
 在GameStart給所有新手教學
 ------------------------------------
+(OK)熊讚公告dynamic
+(OK)InitAndSavePresetPlayerInfo async await problem
+(OK)熊讚Check點位20M目前是註解狀態，等待前端完成功能再解除註解
+
+SupplyPointRewardsRequest & SupplyPointRewardsResponse
+  PocketHi.Share.DTO.Map >> PocketHi.Share.DTO.Supply 
+
+/api/geolocation/supplypoint/getrewards >> /api/supply/getrewards  
+
+(OK)Delete Login & Signup Controller
+(OK)GetValidClaimsAsync 換個名字 容易誤會耶 >> CreateValidClaimsAsync
+(OK)熊讚點位20M檢查
 (OK) API Device >> Facebook or Google 綁定
 (Told Bao)Azure Function App Proxy 404 not found, re-save then OK.
 
