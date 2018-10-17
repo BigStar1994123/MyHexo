@@ -1,21 +1,12 @@
 9/14 alpha version; 11/14 Online; 12 Bravo Event
 -------------------------------------------------------
-++ api/eventbravo/announcements
+Dto SetSkipNewbieTuroialResponse
+++ IList<string> TutorialPass
 
-++ Dto BravoAnnouncementResponse
- string Title
- string Content
-
-BravoPoint
- ++ Name
 
 熊讚點灑花 >> 資料庫查找熊讚點 && 加入時間控制
 
-1/4 才能兌換熊讚市政府版，在之前三天對收集15個的人狂跳通知
 
-
-
-熊讚點位+傳地點的中文
 
 SetToturialPass return latest list
 
@@ -59,6 +50,28 @@ Supply Point ID is unique and always.
 
 在GameStart給所有新手教學
 ------------------------------------
+
+
+Dto SetSkipNewbieTuroialResponse
+++ IList<string> TutorialPass
+
+(OK)1/4 才能兌換熊讚市政府版，在之前三天對收集15個的人狂跳通知
+(OK)熊讚點位+傳地點的中文
+
+++ api/eventbravo/cityhallexchange
+
+++ Dto BravoCityhallExchangeRemindResponse
+ bool IsOpen
+
+++ api/eventbravo/announcements
+
+++ Dto BravoAnnouncementResponse
+ string Title
+ string Content
+
+BravoPoint
+ ++ Name
+
 (OK)熊讚公告dynamic
 (OK)InitAndSavePresetPlayerInfo async await problem
 (OK)熊讚Check點位20M目前是註解狀態，等待前端完成功能再解除註解
