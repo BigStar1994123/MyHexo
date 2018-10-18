@@ -1,14 +1,6 @@
 9/14 alpha version; 11/14 Online; 12 Bravo Event
 -------------------------------------------------------
-Dto SetSkipNewbieTuroialResponse
-++ IList<string> TutorialPass
 
-
-熊讚點灑花 >> 資料庫查找熊讚點 && 加入時間控制
-
-
-
-SetToturialPass return latest list
 
 重複登入Check
 
@@ -50,7 +42,8 @@ Supply Point ID is unique and always.
 
 在GameStart給所有新手教學
 ------------------------------------
-
+(OK)熊讚點灑花 >> 資料庫查找熊讚點 && 加入時間控制
+(OK)SetToturialPass return latest list
 
 Dto SetSkipNewbieTuroialResponse
 ++ IList<string> TutorialPass
