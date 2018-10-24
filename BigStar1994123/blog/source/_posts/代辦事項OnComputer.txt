@@ -2,17 +2,24 @@
 -------------------------------------------------------
 
 
+MongoDb Temp Data (On-Going)
+給地圖點的時候如果CLIENT已經玩過，就不寄該點位給前端。 >> 使用TempData 做 Check
+
+串接鮑大人點位系統
+
 重複登入Check
 
+Facebook / Google 後端認證 >> 不該傳Facebook ID 
+另一個議題 如果JwtToken had taken的話
+
 錯誤碼多語系
+Service 改 throw custom exception
+
+加入Log
 
 有時候 presetPocketHiRole no toki, Role Admin 無法加入
 
-Facebook / Google 後端認證
-
 Publish Server Init GamSetting auto >> CICD
-
-Service 改 throw custom exception
 
 MongoDB Data To Dto 使用 AutoMapper 
 
@@ -20,17 +27,11 @@ MongoDB Data To Dto 使用 AutoMapper
 
 存Mission Temp Level, Finish & SupplyPoint CD Time
 
-40等的時候 missionstart會 Convert '' to int fail
-
-給地圖點的時候如果CLIENT已經玩過，就不寄該點位給前端。
-
 點位+Enable Adjust SupplyType 0,1 來表示大小補給點
 
 任務等級 屬性 在地圖上顯示 
 
 信箱超過上限 自動刪除最舊的 
-
-Error Code
 ------------------------------------
 Console Application Insights
 
@@ -42,6 +43,20 @@ Supply Point ID is unique and always.
 
 在GameStart給所有新手教學
 ------------------------------------
+
+
+HeroMissionPrepareRequest
+ ++ IGeoLocationDto
+
+HeroMissionStartRequest
+ -- IGeoLOcationDto
+
+HeroMissionStartResponse
+ -- Success
+ -- Fail_Reason
+ -- HeroHp
+ -- RewardId
+
 (OK)熊讚點灑花 >> 資料庫查找熊讚點 && 加入時間控制
 (OK)SetToturialPass return latest list
 
@@ -122,6 +137,7 @@ EventAnnouncement
 (OK)英雄徽章升級 API
 (OK)補給站 GET API 如果二選一 刪除其一
 (OK)改熊讚CD時間
+
 RewardItem
  ++ int Stamina
 
