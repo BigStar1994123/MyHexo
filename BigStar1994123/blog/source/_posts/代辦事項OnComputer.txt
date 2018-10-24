@@ -1,6 +1,18 @@
 9/14 alpha version; 11/14 Online; 12 Bravo Event
 -------------------------------------------------------
+Staging Api Gateway 
 
+Development & Staging ++ BlobStorage for store receipts
+
+熊讚AGAIN
+熊讚加連結
+Azure Scale out for 2 and stress test for ddos
+
+註冊低機率非同步問題
+
+Production / Staging / Development Server ApplicationInsight Key need change
+
+AdminMongo at Azure with password
 
 MongoDb Temp Data (On-Going)
 給地圖點的時候如果CLIENT已經玩過，就不寄該點位給前端。 >> 使用TempData 做 Check
