@@ -1,5 +1,7 @@
 9/14 alpha version; 11/14 Online; 12 Bravo Event
 -------------------------------------------------------
+寫測試
+
 Staging Api Gateway 
 
 Development & Staging ++ BlobStorage for store receipts
