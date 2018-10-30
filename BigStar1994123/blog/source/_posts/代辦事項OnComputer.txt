@@ -1,18 +1,18 @@
 9/14 alpha version; 11/14 Online; 12 Bravo Event
 -------------------------------------------------------
+GetMissionStartData Check TempData Exist
+
+英雄升級要重新計算血量
+
 寫測試
 
 Staging Api Gateway 
 
 Development & Staging ++ BlobStorage for store receipts
 
-熊讚AGAIN
-熊讚加連結
 Azure Scale out for 2 and stress test for ddos
 
 註冊低機率非同步問題
-
-Production / Staging / Development Server ApplicationInsight Key need change
 
 AdminMongo at Azure with password
 
@@ -57,7 +57,10 @@ Supply Point ID is unique and always.
 
 在GameStart給所有新手教學
 ------------------------------------
-
+(OK)熊讚新新點位
+(OK)Production / Staging / Development Server ApplicationInsight Key need change
+(OK)熊讚AGAIN
+(OK)熊讚加連結
 
 HeroMissionPrepareRequest
  ++ IGeoLocationDto
