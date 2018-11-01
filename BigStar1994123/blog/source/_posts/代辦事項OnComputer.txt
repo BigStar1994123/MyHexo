@@ -1,17 +1,29 @@
 9/14 alpha version; 11/14 Online; 12 Bravo Event
 -------------------------------------------------------
+補給點和進任務的精力管理要重新Review一遍
+
+11/2 有事CALL SLACK TO TONY for Otacon
+
+Local >> Development >> Local
+
+DTO
+  LoginResponse 
+    -- bool LoginStatus
+    -- int? Error
+  SetCurrentHeroResponse
+    -- bool IsSuccess
+
+API
+  api/identity/bind    
+    LoginResponse >> (nothing)
+  api/playerdata/setuserdisplayname
+    SetUserDisplayNameResponse >> (nothing)
+
+101活動 角色頭上顯示角色名字
+
 前端TEST IsCityhallExchangeRemindTime
 
 新增角色Script
-
-namespace 
-  Mission >> HeroMission
-folder name 
-  Mission >> HeroMission
-api route
-  api/mission/* >> api/heromission/*
-
-GetMissionStartData Check TempData Exist
 
 寫測試
 
@@ -25,7 +37,7 @@ Azure Scale out for 2 and stress test for ddos
 
 AdminMongo at Azure with password
 
-MongoDb Temp Data (On-Going)
+MongoDb Temp Data
 給地圖點的時候如果CLIENT已經玩過，就不寄該點位給前端。 >> 使用TempData 做 Check
 
 串接鮑大人點位系統
@@ -66,6 +78,18 @@ Supply Point ID is unique and always.
 
 在GameStart給所有新手教學
 ------------------------------------
+(OK)GetMissionStartData Check TempData Exist
+
+namespace 
+  Mission >> HeroMission
+folder name 
+  Mission >> HeroMission
+api route
+  api/mission/* >> api/heromission/*
+  api/gamesettings/announcement >> api/announcement
+
+++ HeroPartTime  
+
 (OK)英雄升級要重新計算血量
 (OK)熊讚新新點位
 (OK)Production / Staging / Development Server ApplicationInsight Key need change
