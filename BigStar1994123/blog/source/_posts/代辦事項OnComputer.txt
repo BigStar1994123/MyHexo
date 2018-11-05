@@ -1,10 +1,16 @@
 9/14 alpha version; 11/14 Online; 12 Bravo Event
 -------------------------------------------------------
+Gotcha List is by refrence??
+
+Draft Servcie Line98
+
+GetEntityListConverter vs GetEntityObjectConverter
+
+加入版本檢查
+
+HeroEquipEquipment 時，要檢查要穿的裝備是否已在其他角色上
+
 補給點和進任務的精力管理要重新Review一遍
-
-11/2 有事CALL SLACK TO TONY for Otacon
-
-Local >> Development >> Local
 
 DTO
   LoginResponse 
@@ -12,12 +18,17 @@ DTO
     -- int? Error
   SetCurrentHeroResponse
     -- bool IsSuccess
+  -- SetUserDisplayNameResponse
+  -- EquipmentDeleteResponse
+  ++ HeroPartTime(include 3)
 
 API
   api/identity/bind    
     LoginResponse >> (nothing)
   api/playerdata/setuserdisplayname
     SetUserDisplayNameResponse >> (nothing)
+  api/equipment/delete
+    EquipmentDeleteResponse >> (nothing)    
 
 101活動 角色頭上顯示角色名字
 
@@ -78,6 +89,7 @@ Supply Point ID is unique and always.
 
 在GameStart給所有新手教學
 ------------------------------------
+(OK)11/2 有事CALL SLACK TO TONY for Otacon
 (OK)GetMissionStartData Check TempData Exist
 
 namespace 
