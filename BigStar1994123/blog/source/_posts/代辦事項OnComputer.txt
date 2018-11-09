@@ -1,12 +1,14 @@
 9/14 alpha version; 11/14 Online; 12 Bravo Event
 -------------------------------------------------------
-Gotcha List is by refrence??
+前後端 Timeout Retry
 
-Draft Servcie Line98
+活動Event if 沒有 要加入
 
-GetEntityListConverter vs GetEntityObjectConverter
+Neeeeeeed UnitOfWork
 
-加入版本檢查
+
+
+加入版本檢查  
 
 HeroEquipEquipment 時，要檢查要穿的裝備是否已在其他角色上
 
@@ -21,6 +23,9 @@ DTO
   -- SetUserDisplayNameResponse
   -- EquipmentDeleteResponse
   ++ HeroPartTime(include 3)
+  SetSkipNewbieTuroial >> SetSkipTutorial
+    SetSkipNewbieTuroialRequest >> SetSkipTutorialRequest
+    SetSkipNewbieTuroialResponse >> SetSkiTutorialResponse
 
 API
   api/identity/bind    
@@ -89,6 +94,13 @@ Supply Point ID is unique and always.
 
 在GameStart給所有新手教學
 ------------------------------------
+(OK)GetEntityListConverter vs GetEntityObjectConverter
+(OK)提醒企劃 Hero_Data Laley 的頭 要記得改
+(OK)熊讚 此地點已無熊讚裝備可收集   裝備 >> 配件
+(OK)newbietutorial dto name wrong
+(OK)Gotcha List is by refrence??
+(OK)Draft Servcie Line98
+(OK)Fragment Service Line111
 (OK)11/2 有事CALL SLACK TO TONY for Otacon
 (OK)GetMissionStartData Check TempData Exist
 
