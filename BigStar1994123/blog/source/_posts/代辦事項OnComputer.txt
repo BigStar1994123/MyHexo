@@ -1,39 +1,48 @@
 9/14 alpha version; 11/14 Online; 12 Bravo Event
 -------------------------------------------------------
+Item Dto ++Name
+
+寫個Login Without Swagger
+
+Chris 要一個可以打Server 的 Log
+
+英雄打工的優惠券 試著用網頁動態生
+
+Dto
+  --ISuccessDto
+  RewardItem >> Rewards
+    PocketHi.Share.DTO >> PocketHi.Share.DTO.Reward
+    --IList<Item> ItemList
+    --IList<Equipment> EquipmentList
+    --IList<Draft> DraftList
+    --IList<Fragment> FragmentList
+    ++IList<RewardItem> RewardItemList
+  SupplyPointRewardsResponse
+    IRewardItemDto RewardItems >> IRewardsDto Rewards
+  Mail
+    IRewardItemDto RewardItems >> IRewardsDto Rewards
+  HeroMissionEndResponse
+    IRewardItemDto RewardItems >> IRewardsDto Rewards
+  HeroPartTimeReward
+    IRewardItemDto RewardItems >> IRewardsDto Rewards
+  HeroPartTimeHeroBackResponse
+    RewardList >> HeroPartTimeRewardList
+
+活動給 Icon & Url
+
+Singup在熊讚活動開始後送熊讚+Starky
+
 前後端 Timeout Retry
 
 活動Event if 沒有 要加入
 
 Neeeeeeed UnitOfWork
 
-
-
 加入版本檢查  
 
 HeroEquipEquipment 時，要檢查要穿的裝備是否已在其他角色上
 
 補給點和進任務的精力管理要重新Review一遍
-
-DTO
-  LoginResponse 
-    -- bool LoginStatus
-    -- int? Error
-  SetCurrentHeroResponse
-    -- bool IsSuccess
-  -- SetUserDisplayNameResponse
-  -- EquipmentDeleteResponse
-  ++ HeroPartTime(include 3)
-  SetSkipNewbieTuroial >> SetSkipTutorial
-    SetSkipNewbieTuroialRequest >> SetSkipTutorialRequest
-    SetSkipNewbieTuroialResponse >> SetSkiTutorialResponse
-
-API
-  api/identity/bind    
-    LoginResponse >> (nothing)
-  api/playerdata/setuserdisplayname
-    SetUserDisplayNameResponse >> (nothing)
-  api/equipment/delete
-    EquipmentDeleteResponse >> (nothing)    
 
 101活動 角色頭上顯示角色名字
 
@@ -94,6 +103,29 @@ Supply Point ID is unique and always.
 
 在GameStart給所有新手教學
 ------------------------------------
+
+
+DTO
+  LoginResponse 
+    -- bool LoginStatus
+    -- int? Error
+  SetCurrentHeroResponse
+    -- bool IsSuccess
+  -- SetUserDisplayNameResponse
+  -- EquipmentDeleteResponse
+  ++ HeroPartTime(include 3)
+  SetSkipNewbieTuroial >> SetSkipTutorial
+    SetSkipNewbieTuroialRequest >> SetSkipTutorialRequest
+    SetSkipNewbieTuroialResponse >> SetSkiTutorialResponse
+
+API
+  api/identity/bind    
+    LoginResponse >> (nothing)
+  api/playerdata/setuserdisplayname
+    SetUserDisplayNameResponse >> (nothing)
+  api/equipment/delete
+    EquipmentDeleteResponse >> (nothing)    
+
 (OK)GetEntityListConverter vs GetEntityObjectConverter
 (OK)提醒企劃 Hero_Data Laley 的頭 要記得改
 (OK)熊讚 此地點已無熊讚裝備可收集   裝備 >> 配件
