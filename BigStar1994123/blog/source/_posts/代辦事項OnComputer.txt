@@ -1,5 +1,7 @@
 9/14 alpha version; 11/14 Online; 12 Bravo Event
 -------------------------------------------------------
+2018 web red version
+
 Azure TTL Key Index bug
 
 aligala4gametable1 >> files >> game-table >> Connect >> Alternatively
