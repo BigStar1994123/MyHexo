@@ -1,6 +1,6 @@
 9/14 alpha version; 11/14 Online; 12 Bravo Event
 -------------------------------------------------------
-2018 web red version
+MongoDb Concurrency problem
 
 Azure TTL Key Index bug
 
@@ -13,8 +13,6 @@ GameTableLoader-staging >> Login App Designer >> When a HTTP request is received
 2. 自加 Attribute 在 Controller 檢查
   看可不可以 Identity 可以 Custome 檢查 Method
   或是自己寫
-
-Chris 要一個可以打Server 的 Log
 
 英雄打工的優惠券 試著用網頁動態生
 
@@ -30,15 +28,7 @@ Neeeeeeed UnitOfWork
 
 HeroEquipEquipment 時，要檢查要穿的裝備是否已在其他角色上
 
-前端TEST IsCityhallExchangeRemindTime
-
-新增角色Script
-
 寫測試
-
-Staging Api Gateway 
-
-Development & Staging ++ BlobStorage for store receipts
 
 Azure Scale out for 2 and stress test for ddos
 
@@ -54,7 +44,7 @@ MongoDb Temp Data
 Facebook / Google 後端認證 >> 不該傳Facebook ID 
 另一個議題 如果JwtToken had taken的話
 
-錯誤碼多語系
+
 
 加入Log
 
@@ -82,6 +72,14 @@ Supply Point ID is unique and always.
 
 在GameStart給所有新手教學
 ------------------------------------
+(OK)錯誤碼多語系
+(seems ok)前端TEST IsCityhallExchangeRemindTime
+(Skip)Development & Staging ++ BlobStorage for store receipts
+(Pao Ok)Staging Api Gateway 
+(OK)新增角色Script
+(OK)Chris 要一個可以打Server 的 Log
+(OK)2018 web red version
+(OK)Photo by himself 1920 1080 fail
 (OK)有時候 presetPocketHiRole no toki, Role Admin 無法加入
 (OK)Service 改 throw custom exception
 (OK)註冊低機率非同步問題
