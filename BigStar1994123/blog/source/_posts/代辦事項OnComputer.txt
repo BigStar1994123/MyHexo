@@ -1,5 +1,7 @@
 9/14 alpha version; 11/14 Online; 12 Bravo Event
 -------------------------------------------------------
+Git push FunctionHelloWorld4
+
 MissionPoint Prepare & SupplyPoint Get Reward need distance restrictions
 
 Peset data Debug & Publish 時間會不同 差8小
@@ -51,8 +53,6 @@ Facebook / Google 後端認證 >> 不該傳Facebook ID
 Publish Server Init GamSetting auto >> CICD
 
 MongoDB Data To Dto 使用 AutoMapper 
-
-
 
 存Mission Temp Level, Finish & SupplyPoint CD Time
 
