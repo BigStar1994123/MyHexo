@@ -1,5 +1,9 @@
 9/14 alpha version; 11/14 Online; 12 Bravo Event
 -------------------------------------------------------
+API SOP
+
+Staging to Production 不停機方法??
+
 Git push FunctionHelloWorld4
 
 MissionPoint Prepare & SupplyPoint Get Reward need distance restrictions
