@@ -1,5 +1,9 @@
 9/14 alpha version; 11/14 Online; 12 Bravo Event
 -------------------------------------------------------
+Redis ReloadOnChange Fail
+
+
+
 API SOP
 
 Staging to Production 不停機方法??
@@ -76,6 +80,7 @@ Supply Point ID is unique and always.
 
 在GameStart給所有新手教學
 ------------------------------------
+(OK)Staging Redis LoadOnChange Test, Production Bravo Event Open Time Test
 (OK)熊讚如何贈送給玩家
 (OK)Singup在熊讚活動開始後送熊讚+Starky
 
