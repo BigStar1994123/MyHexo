@@ -1,16 +1,18 @@
 ---
-title: 20181224工作日誌
+title: C# 使用 HtmlAgilityPack 對 HTML 進行解析
 tags:
   - 工作
   - C#
+  - HtmlAgilityPack
+  - HTML
 category:
   - 工作日誌
   - 12月工作日誌
 date: 2018-12-24 14:24:41
 ---
-## C# 如何對 Html 進行解析 ##
+# C# 使用 HtmlAgilityPack 對 HTML 進行解析 #
 
-使用 HtmlAgilityPack  
+好懶，以後補  
 https://html-agility-pack.net/  
 https://blog.exfast.me/2016/07/c-use-the-htmlagilitypack-to-collect-web-pages/  
 https://blog.csdn.net/Simon1003/article/details/80359325  
