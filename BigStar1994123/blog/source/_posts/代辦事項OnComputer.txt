@@ -1,10 +1,13 @@
 9/14 alpha version; 11/14 Online; 12 Bravo Event
 -------------------------------------------------------
+Azure Availability 檢查 Server 有沒有網路被鯊魚咬斷
+
 Redis ReloadOnChange Fail
 
-API SOP
+改版本號碼寫SOP
+改API寫SOP
 
-Staging to Production 不停機方法??
+Staging to Production 不停機方法?? 試試看 Deployment slots
 
 Git push FunctionHelloWorld4
 
@@ -47,7 +50,7 @@ AdminMongo at Azure with password
 MongoDb Temp Data
 給地圖點的時候如果CLIENT已經玩過，就不寄該點位給前端。 >> 使用TempData 做 Check
 
-串接鮑大人點位系統
+(Doing)串接鮑大人點位系統
 
 重複登入Check
 
