@@ -1,13 +1,16 @@
 ---
-title: 20181130工作日誌
+title: MongoDB C# Driver 簡易使用方式
 tags:
   - 工作
+  - MongoDB
+  - C#
 category:
   - 工作日誌
+  - 2018
+  - 11月
 date: 2018-11-30 09:58:23
 ---
-
-## 這篇 MongoDb C# Driver 的教學真低不錯 ##
+# 這篇 MongoDb C# Driver 的教學真低不錯 #
 
 [C#操作MongoDB的簡單實例](https://hk.saowen.com/a/34794073f951e271d96c7cba6c78fcdefe240660afcd6dbb7ca133b687e65998)
 
@@ -57,9 +60,3 @@ date: 2018-11-30 09:58:23
   Console.WriteLine("Finish");
   Console.Read();
 ```
-
-## 在 Asp Net Core 使用 HttpClient ##
-
-[MsDocs: 使用.NET Core 來建立REST 用戶端](https://docs.microsoft.com/zh-tw/dotnet/csharp/tutorials/console-webapiclient)  
-
-[使用HttpClientFactory 實作復原HTTP 要求](https://docs.microsoft.com/zh-tw/dotnet/standard/microservices-architecture/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests)
