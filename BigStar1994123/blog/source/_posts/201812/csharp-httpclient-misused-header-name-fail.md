@@ -1,42 +1,38 @@
 ---
-title: 20181213工作日誌
+title: C# HttpClient misused header name fail
 tags:
   - 工作
   - C#
+  - HttpClient
+  - HTTP
 category:
   - 工作日誌
+  - 2018
+  - 12月
 date: 2018-12-13 12:05:16
 ---
-
-## 我想在 Foeach Dictionay 的時候改變數值 ##
-
-會跑錯誤呢 因為不能在 Foreach 時改值  
-該怎麼做呢  
-
- 1. Clone 一個 Dictionary出來
- 2. 或是在使用時加上 Tolist()，原理與1相同但看起來簡潔許多
-
-[Github: Editing dictionary values in a foreach loop](https://github.com/DavidAnson/markdownlint/blob/v0.11.0/doc/Rules.md#md032)  
-
-## C# 使用 HttpClient 的時候出現 Misused header name. 的 Fail ##
+# C# 使用 HttpClient 的時候出現 Misused header name. 的 Fail #
 
 我的用法是醬子  
-
 ```
   httpClient.DefaultRequestHeaders.Add("Content-Type", "application/json");
-```  
+
+```
 
 沒錯 跟智障一樣  
 解法可用  
 ```
   httpClient.DefaultRequestHeaders.Add("Accept", "application/json");
+
 ```
-或是
+
+或是  
 ```
   httpClient.DefaultRequestHeaders
             .Accept
             .Add(new MediaTypeWithQualityHeaderValue("application/json")); //ACCEPT header
-```  
+
+```
 
 [Github: How do you set the Content-Type header for an HttpClient request?](https://stackoverflow.com/questions/10679214/how-do-you-set-the-content-type-header-for-an-httpclient-request)  
 

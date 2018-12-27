@@ -1,25 +1,16 @@
 ---
-title: 20181210工作日誌
+title: Azure Application Insights 追蹤 Trace 利用 Debug Snapshots
 tags:
   - 工作
+  - Azure
+  - Application Insights
 category:
   - 工作日誌
+  - 2018
+  - 12月
 date: 2018-12-10 11:03:10
 ---
-## Request 失敗就一直重 Try 的專有名詞 ##
-
-叫做 Exponential-Backoff
-[Github: Polly](https://github.com/App-vNext/Polly/wiki/Retry#exponential-backoff)  
-
-## Fiddler 是一款真正的看 HTTP 的程式 ##
-
-試著取得 Andorid 跟 iOS 的 Request  
-需要用到 Proxy  
-
-[Andorid](https://docs.telerik.com/fiddler/Configure-Fiddler/Tasks/ConfigureForAndroid)  
-[iOS](https://docs.telerik.com/fiddler/Configure-Fiddler/Tasks/ConfigureForiOS#decrypt-https-traffic-from-ios-devices)  
-
-## Application Insight Log ##
+# Application Insight Log #
 
 Application Insights Log Analytics  
 分析 Log 的方式  
