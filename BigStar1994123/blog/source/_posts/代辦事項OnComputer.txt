@@ -43,8 +43,6 @@ HeroEquipEquipment 時，要檢查要穿的裝備是否已在其他角色上
 
 寫測試
 
-Azure Scale out for 2 and stress test for ddos
-
 AdminMongo at Azure with password
 
 MongoDb Temp Data
@@ -81,6 +79,7 @@ Supply Point ID is unique and always.
 
 在GameStart給所有新手教學
 ------------------------------------
+(OK)Azure Scale out for 2 and stress test for ddos
 (OK)Staging Redis LoadOnChange Test, Production Bravo Event Open Time Test
 (OK)熊讚如何贈送給玩家
 (OK)Singup在熊讚活動開始後送熊讚+Starky
