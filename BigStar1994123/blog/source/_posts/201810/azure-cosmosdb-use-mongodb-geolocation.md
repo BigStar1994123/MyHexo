@@ -3,7 +3,7 @@ title: Azure CosmosDB 使用 MongoDB Geolocation
 tags:
   - 工作
   - MongoDB
-  - CosmosDB
+  - Azure CosmosDB
 category:
   - 工作日誌
   - 2018

@@ -2,7 +2,7 @@
 title: CosmosDB 的 MongoDB 內如何實作 TTL (Time To Live)
 tags:
   - 工作
-  - CosmosDB
+  - Azure CosmosDB
 category:
   - 工作日誌
   - 2018

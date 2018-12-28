@@ -2,7 +2,7 @@
 title: CosmosDB Setting for GeoLocation
 tags:
   - 工作
-  - CosmosDB
+  - Azure CosmosDB
 category:
   - 工作日誌
   - 2018
