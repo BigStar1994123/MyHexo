@@ -1,14 +1,15 @@
 ---
-title: 20181025工作日誌
+title: 在 MongoDB Collection 內完全移除一個 Field
 tags:
   - 工作
-  - MongoDb
+  - MongoDB
 category:
   - 工作日誌
+  - 2018
+  - 10月
 date: 2018-10-25 14:58:22
 ---
-## Remove mongodb field from collections ##
-
+# Remove mongodb field from collections #
 
 ```
 { 

@@ -1,12 +1,17 @@
 ---
-title: 20181022工作日誌
+title: MongoDB 的一些東西
 tags:
   - 工作
-  - MongoDb
+  - MongoDB
+  - Document Database Providers
 category:
   - 工作日誌
+  - 2018
+  - 10月
 date: 2018-10-22 15:59:56
 ---
+# MongoDB #
+
 ## MongoDb Host ##
 
 [The mongo Shell](https://docs.mongodb.com/manual/mongo/)

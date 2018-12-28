@@ -1,12 +1,16 @@
 ---
-title: 20181017工作日誌
+title: Azure CosmosDB 使用 MongoDB Geolocation
 tags:
   - 工作
+  - MongoDB
+  - CosmosDB
 category:
   - 工作日誌
+  - 2018
+  - 10月
 date: 2018-10-17 16:42:52
 ---
-## 乾 Azure CosmosDb 使用 MongoDb GeoLocation功能 ##
+# Azure CosmosDB 使用 MongoDB GeoLocation功能 #
 
 真D好難  
 
@@ -47,4 +51,4 @@ date: 2018-10-17 16:42:52
 
 ## MongoDb ##
 
-[MongoDB 學習筆記四 C#調用MongoDB](357e58f16288c063a3c932da7a6f60f63c39c32c789a57a837d8ba4075ab1644)
+[MongoDB 學習筆記四 C#調用MongoDB](https://blog.csdn.net/xundh/article/details/49449467)

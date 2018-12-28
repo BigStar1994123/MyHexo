@@ -1,12 +1,14 @@
 ---
-title: 20181004工作日誌
+title: 20181004 temp store data
 tags:
   - 工作
 category:
   - 工作日誌
+  - 2018
+  - 10月
 date: 2018-10-04 16:43:49
 ---
-## 暫存 ##
+# 暫存 #
 
 ```
         "Equipment_Mmax_Gloves_Bravo",
