@@ -7,8 +7,6 @@ Redis ReloadOnChange Fail
 改版本號碼寫SOP
 改API寫SOP
 
-Staging to Production 不停機方法?? 試試看 Deployment slots
-
 Git push FunctionHelloWorld4
 
 MissionPoint Prepare & SupplyPoint Get Reward need distance restrictions
@@ -79,6 +77,7 @@ Supply Point ID is unique and always.
 
 在GameStart給所有新手教學
 ------------------------------------
+(OK)Staging to Production 不停機方法?? 試試看 Deployment slots
 (OK)Azure Scale out for 2 and stress test for ddos
 (OK)Staging Redis LoadOnChange Test, Production Bravo Event Open Time Test
 (OK)熊讚如何贈送給玩家
