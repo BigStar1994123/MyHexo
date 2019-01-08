@@ -114,63 +114,51 @@ category:
 只可惜胡迪只理幾個女高中生和小朋友  
 大叔是沒機會的(´・ω・`)  
 
+![nice boat](https://i.imgur.com/iz2yzBc.jpg)
 
 一艘很猛的郵輪  
-不知道怎麼上去   
+不知道怎麼上去  
 
+![goodshiao](https://i.imgur.com/ldtSLUY.jpg)
 
 拿通行卷 在指定時間可以有快速通關效果  
 這是玩一個類似六福村有水衝下來的遊樂設施  
 還不錯玩 會偷拍你衝下來很醜的畫面再賣你賺錢  
 
-我買了  
+~~我買了~~  
 
-
- 
-
+![night](https://i.imgur.com/6BbTNCr.jpg)
 
 不知不覺 就晚上了  
 迪士尼的城堡也把燈點亮了  
 夜晚的遊行也就開始了d(`･∀･)b  
 
- 
-
+![gogogo](https://i.imgur.com/rvCzlaI.jpg)
 
 晚上的遊行  
 不過天空下了不只一點小雨  
 大概只走了一下下就結束囉｡ﾟヽ(ﾟ´Д`)ﾉﾟ｡  
 
- 
+![byebye](https://i.imgur.com/zF0K6pk.jpg)
 
-
-
-
-
-
+![byebye2](https://i.imgur.com/nRA7qt5.jpg)
 
 濕濕的地板與撐傘的人群  
 
-
-
 玩了一整天 是時候該離開啦  
 想說來搭看看園內的單軌列車  
- 
 
+![single rail car](https://i.imgur.com/Y1y0ntw.jpg)
 
 車內大概長這個樣子 (圖片取自：樂活的大方)  
 
-
- 
-
-
+![allmickymouse](https://i.imgur.com/5qCraKg.jpg)
 
 都是米奇 蠻可愛的  
 
+![map](https://i.imgur.com/Ycxinid.jpg)
 
- 
-
-
-我們就沿著路線路大概繞了一圈多  
+我們就沿著路線路多繞了一圈多  
 最後在同一站下車  
 也就是 東京迪士尼樂園站  
 然後走回希爾頓飯店  
@@ -178,9 +166,7 @@ category:
 離我們下車的迪士尼樂園站有一段距離  
 沒錯 我們決定走過去  
 
-
- 
-
+![blackmanquestion](https://i.imgur.com/NAjrEly.jpg)
 
 黑人問號  
 幹到底是哪個白癡的智障決定(應該是四個白癡)  
@@ -188,36 +174,32 @@ category:
 走一半就後悔了  
 PS : 早上是搭接駁車來的 沒什麼感覺  
 
-
- 
-
+![advantage](https://i.imgur.com/zn9X6L6.jpg)
 
 走了不知道多久 終於看到飯店  
 眼淚都快哭出來了  
 害手機拍起來也糊糊的 可能真的是淚水吧  
-速速拿完行李往我們接下來要住五天的地方GO囉=͟͟͞͞( •̀д•́)  
- 
+速速拿完行李往我們接下來要住五天的地方GO囉 =͟͟͞͞( •̀д•́)  
 
+![mapmap](https://i.imgur.com/0VVgMFg.png)
 
 路線圖大概是長這樣  
 要在東京車站轉個車  
-
 
 約經過一個小時車程  
 到達  
 御徒町駛  
 
 然後再走20分鐘路途就到達住的地方  
-Hotel Edoya 囉ヽ(́◕◞౪◟◕‵)ﾉ  
-雖然路程上是各種哀嚎  
-迪士尼走了一天 排隊排了一天  
-搭錯站下車又走了幾公里  
-然後繼續靠雙腳走去下一個飯店  
- 
+`Hotel Edoya` 囉ヽ(́◕◞౪◟◕‵)ﾉ  
+~~雖然路程上是各種哀嚎~~  
+~~迪士尼走了一天 排隊排了一天~~  
+~~搭錯站下車又走了幾公里~~  
+~~然後繼續靠雙腳走去下一個飯店~~  
 
+![hotel edoya](https://i.imgur.com/s1sfdob.png)
 
 日式塌塌米房間打地鋪 超有和式風味的阿  
-
 
 第二天就到這邊結束啦  
 多采多姿的一天呢  
