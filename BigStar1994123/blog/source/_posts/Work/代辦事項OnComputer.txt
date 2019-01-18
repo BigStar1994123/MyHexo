@@ -1,5 +1,8 @@
 9/14 alpha version; 11/14 Online; 12 Bravo Event
 -------------------------------------------------------
+MongoDB remove FramgnetEntity, DraftEntity
+移除全部 Mail
+
 Azure Availability 檢查 Server 有沒有網路被鯊魚咬斷
 
 Redis ReloadOnChange Fail

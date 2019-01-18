@@ -9,7 +9,7 @@ category:
   - 1月
 date: 2019-01-07 18:31:56
 ---
-# Git 回復一個以前的 File #
+# Git 恢復一個以前的 File #
 
 ```cmd
   git checkout <hash of the commit> filename

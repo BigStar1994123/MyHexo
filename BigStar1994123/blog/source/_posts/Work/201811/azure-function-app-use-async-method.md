@@ -3,7 +3,7 @@ title: 在 Azure Function Application 內使用 Async 方法
 tags:
   - 工作
   - Azure
-  - Function Application
+  - Azure Function Application
 category:
   - 工作日誌
   - 2018

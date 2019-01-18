@@ -3,7 +3,7 @@ title: 在 Azure Function Application 內使用 TimeTrigger 達到排程效果
 tags:
   - 工作
   - Azure
-  - Function Application
+  - Azure Function Application
 category:
   - 工作日誌
   - 2018
