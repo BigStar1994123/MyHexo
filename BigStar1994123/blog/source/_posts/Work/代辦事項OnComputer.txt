@@ -1,6 +1,19 @@
 9/14 alpha version; 11/14 Online; 12 Bravo Event
 -------------------------------------------------------
-MongoDB remove FramgnetEntity, DraftEntity
+跟前端說裝備 Bravo 要濾掉
+
+串點位(補給點、網紅任務點) + 距離限制 + CD時間
+
+換裝DTO & API
+
+補給點獲得東西邏輯更改
+餵飼道具規則更改
+
+改網紅貼文、按讚的DB存取位置
+
+Jacky Notification API
+
+MongoDB remove FramgnetEntity, DraftEntity, Equipment Lv, RewardEntity Lv, 改 PlayerName to 史大奇
 移除全部 Mail
 
 Azure Availability 檢查 Server 有沒有網路被鯊魚咬斷
@@ -23,6 +36,7 @@ Azure TTL Key Index bug
 aligala4gametable1 >> files >> game-table >> Connect >> Alternatively
 GameTableLoader-staging >> Login App Designer >> When a HTTP request is received
 
+重複登入Check
 擋多重登入 PocketHiAccount : IdentityUser<Guid>
   加入一個 Datetime? Datetime
 1. 可在 AuthHelperService去檢查
@@ -49,10 +63,6 @@ AdminMongo at Azure with password
 MongoDb Temp Data
 給地圖點的時候如果CLIENT已經玩過，就不寄該點位給前端。 >> 使用TempData 做 Check
 
-(Doing)串接鮑大人點位系統
-
-重複登入Check
-
 Facebook / Google 後端認證 >> 不該傳Facebook ID 
 另一個議題 如果JwtToken had taken的話
 
@@ -65,8 +75,6 @@ MongoDB Data To Dto 使用 AutoMapper
 存Mission Temp Level, Finish & SupplyPoint CD Time
 
 點位+Enable Adjust SupplyType 0,1 來表示大小補給點
-
-任務等級 屬性 在地圖上顯示 
 
 信箱超過上限 自動刪除最舊的 
 ------------------------------------
