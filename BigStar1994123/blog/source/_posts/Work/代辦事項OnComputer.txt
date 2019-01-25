@@ -1,17 +1,6 @@
-9/14 alpha version; 11/14 Online; 12 Bravo Event
+9/14 alpha version; 11/14 Online; 12 Bravo Event, 2/14 Celebrity Pudding
 -------------------------------------------------------
-跟前端說裝備 Bravo 要濾掉
-
 串點位(補給點、網紅任務點) + 距離限制 + CD時間
-
-換裝DTO & API
-
-補給點獲得東西邏輯更改
-餵飼道具規則更改
-
-改網紅貼文、按讚的DB存取位置
-
-Jacky Notification API
 
 MongoDB remove FramgnetEntity, DraftEntity, Equipment Lv, RewardEntity Lv, 改 PlayerName to 史大奇
 移除全部 Mail
@@ -50,11 +39,7 @@ GameTableLoader-staging >> Login App Designer >> When a HTTP request is received
 
 前後端 Timeout Retry
 
-活動Event if 沒有 要加入
-
 Neeeeeeed UnitOfWork
-
-HeroEquipEquipment 時，要檢查要穿的裝備是否已在其他角色上
 
 寫測試
 
@@ -88,6 +73,15 @@ Supply Point ID is unique and always.
 
 在GameStart給所有新手教學
 ------------------------------------
+(OK)活動Event if 沒有 要加入
+(X)HeroEquipEquipment 時，要檢查要穿的裝備是否已在其他角色上
+(OK)跟前端說裝備 Bravo 要濾掉
+(OK)換裝DTO & API
+(OK)補給點獲得東西邏輯更改
+(OK)餵飼道具規則更改
+(OK)改網紅貼文、按讚的DB存取位置
+(OK)Jacky Notification API
+
 (OK)Staging to Production 不停機方法?? 試試看 Deployment slots
 (OK)Azure Scale out for 2 and stress test for ddos
 (OK)Staging Redis LoadOnChange Test, Production Bravo Event Open Time Test
