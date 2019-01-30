@@ -1,9 +1,10 @@
 9/14 alpha version; 11/14 Online; 12 Bravo Event, 2/14 Celebrity Pudding
 -------------------------------------------------------
-串點位(補給點、網紅任務點) + 距離限制 + CD時間
+串點位(補給點、網紅任務點) + (OK)距離限制 + (OK)CD時間
 
-MongoDB remove FramgnetEntity, DraftEntity, Equipment Lv, RewardEntity Lv, 改 PlayerName to 史大奇
+MongoDB remove (語法OK)FramgnetEntity, (語法OK)DraftEntity, Equipment Lv, RewardEntity Lv, (語法OK)改 PlayerName to 史大奇
 移除全部 Mail
+remove all icon_time_percetage
 
 Azure Availability 檢查 Server 有沒有網路被鯊魚咬斷
 
@@ -25,28 +26,19 @@ Azure TTL Key Index bug
 aligala4gametable1 >> files >> game-table >> Connect >> Alternatively
 GameTableLoader-staging >> Login App Designer >> When a HTTP request is received
 
-重複登入Check
-擋多重登入 PocketHiAccount : IdentityUser<Guid>
-  加入一個 Datetime? Datetime
-1. 可在 AuthHelperService去檢查
-2. 自加 Attribute 在 Controller 檢查
-  看可不可以 Identity 可以 Custome 檢查 Method
-  或是自己寫
-
 英雄打工的優惠券 試著用網頁動態生
 
 活動給 Icon & Url
 
 前後端 Timeout Retry
 
-Neeeeeeed UnitOfWork
+Need UnitOfWork
 
 寫測試
 
 AdminMongo at Azure with password
 
-MongoDb Temp Data
-給地圖點的時候如果CLIENT已經玩過，就不寄該點位給前端。 >> 使用TempData 做 Check
+
 
 Facebook / Google 後端認證 >> 不該傳Facebook ID 
 另一個議題 如果JwtToken had taken的話
@@ -73,6 +65,15 @@ Supply Point ID is unique and always.
 
 在GameStart給所有新手教學
 ------------------------------------
+(OK)MongoDb Temp Data 給地圖點的時候如果CLIENT已經玩過，就不寄該點位給前端。 >> 使用TempData 做 Check
+(OK)重複登入Check
+擋多重登入 PocketHiAccount : IdentityUser<Guid>
+  加入一個 Datetime? Datetime
+1. 可在 AuthHelperService去檢查
+2. 自加 Attribute 在 Controller 檢查
+  看可不可以 Identity 可以 Custome 檢查 Method
+  或是自己寫
+
 (OK)活動Event if 沒有 要加入
 (X)HeroEquipEquipment 時，要檢查要穿的裝備是否已在其他角色上
 (OK)跟前端說裝備 Bravo 要濾掉
