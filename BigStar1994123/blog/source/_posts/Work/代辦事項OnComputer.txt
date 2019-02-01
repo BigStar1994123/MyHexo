@@ -2,8 +2,15 @@
 -------------------------------------------------------
 串點位(補給點、網紅任務點) + (OK)距離限制 + (OK)CD時間
 
+(寫給年後的我看)
+13號停機維護上版本
+請珍妮佛發公告
+導Gateway To Production
+Azure Function Sort Rank 我設為 Disable
+Azure Function For 排行榜
+Azure MongoDB 有些要手改 Staging 的東西上 Production
+使用 Admin Reset 語法，然後將[BsonIgnoreExtraElements]移除，完美
 MongoDB remove (語法OK)FramgnetEntity, (語法OK)DraftEntity, Equipment Lv, RewardEntity Lv, (語法OK)改 PlayerName to 史大奇
-移除全部 Mail
 remove all icon_time_percetage
 
 Azure Availability 檢查 Server 有沒有網路被鯊魚咬斷
@@ -14,8 +21,6 @@ Redis ReloadOnChange Fail
 改API寫SOP
 
 Git push FunctionHelloWorld4
-
-MissionPoint Prepare & SupplyPoint Get Reward need distance restrictions
 
 Peset data Debug & Publish 時間會不同 差8小
 
@@ -38,8 +43,6 @@ Need UnitOfWork
 
 AdminMongo at Azure with password
 
-
-
 Facebook / Google 後端認證 >> 不該傳Facebook ID 
 另一個議題 如果JwtToken had taken的話
 
@@ -55,16 +58,17 @@ MongoDB Data To Dto 使用 AutoMapper
 
 信箱超過上限 自動刪除最舊的 
 ------------------------------------
+------------------------------------
+(OK)MissionPoint Prepare & SupplyPoint Get Reward need distance restrictions
+
+下面這段意義不明?
 Console Application Insights
-
 MongoDB Log
-
 Mission Point ID is unique.
 Bravo Point ID is not unique.
 Supply Point ID is unique and always.
-
 在GameStart給所有新手教學
-------------------------------------
+
 (OK)MongoDb Temp Data 給地圖點的時候如果CLIENT已經玩過，就不寄該點位給前端。 >> 使用TempData 做 Check
 (OK)重複登入Check
 擋多重登入 PocketHiAccount : IdentityUser<Guid>
