@@ -1,21 +1,14 @@
 9/14 alpha version; 11/14 Online; 12 Bravo Event, 2/14 Celebrity Pudding
 -------------------------------------------------------
-串點位(補給點、網紅任務點) + (OK)距離限制 + (OK)CD時間
+Remove [BsonIgnoreExtraElements]
 
-(寫給年後的我看)
-13號停機維護上版本
-請珍妮佛發公告
-導Gateway To Production
-Azure Function Sort Rank 我設為 Disable
-Azure Function For 排行榜
-Azure MongoDB 有些要手改 Staging 的東西上 Production
-使用 Admin Reset 語法，然後將[BsonIgnoreExtraElements]移除，完美
-MongoDB remove (語法OK)FramgnetEntity, (語法OK)DraftEntity, Equipment Lv, RewardEntity Lv, (語法OK)改 PlayerName to 史大奇
-remove all icon_time_percetage
+排行榜 人數少的名次BUG
+
+串點位(補給點、網紅任務點) + (OK)距離限制 + (OK)CD時間
 
 Azure Availability 檢查 Server 有沒有網路被鯊魚咬斷
 
-Redis ReloadOnChange Fail
+Redis ReloadOnChange Fail 目前須重開Server
 
 改版本號碼寫SOP
 改API寫SOP
@@ -41,10 +34,8 @@ Need UnitOfWork
 
 寫測試
 
-AdminMongo at Azure with password
-
 Facebook / Google 後端認證 >> 不該傳Facebook ID 
-另一個議題 如果JwtToken had taken的話
+另一個議題 如果JwtToken 被拿走的話
 
 加入Log
 
@@ -59,6 +50,18 @@ MongoDB Data To Dto 使用 AutoMapper
 信箱超過上限 自動刪除最舊的 
 ------------------------------------
 ------------------------------------
+(OK)
+(寫給年後的我看)
+13號停機維護上版本
+請珍妮佛發公告
+導Gateway To Production
+Azure Function Sort Rank 我設為 Disable
+Azure Function For 排行榜
+Azure MongoDB 有些要手改 Staging 的東西上 Production
+使用 Admin Reset 語法，然後將[BsonIgnoreExtraElements]移除，完美
+MongoDB remove (語法OK)FramgnetEntity, (語法OK)DraftEntity, Equipment Lv, RewardEntity Lv, (語法OK)改 PlayerName to 史大奇
+remove all icon_time_percetage
+
 (OK)MissionPoint Prepare & SupplyPoint Get Reward need distance restrictions
 
 下面這段意義不明?
