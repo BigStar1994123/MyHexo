@@ -328,4 +328,4 @@ SetSkipNewbieTuroialResponse
 (Dto OK)fragment count >> quantity, string >> int, delete description
 (Dto OK)E bottle in HeroList
 (Dto OK)Fragment + position
-(OK)Equipment Excel Delete Draft 對應
+(OK)Equipment Excel Delete Draft 對應1
