@@ -1,0 +1,153 @@
+C#中的IDisposable模式用法詳解
+https://www.itread01.com/content/1510590030.html
+C#中IEnumerable、ICollection、IList、List之间的区别
+https://www.cnblogs.com/sunliyuan/p/5816666.html
+LINQ Where 原始碼
+https://github.com/dotnet/corefx/blob/master/src/System.Linq/src/System/Linq/Where.cs
+CacheManager
+https://www.itread01.com/content/1545804614.html
+http://www.csharpkit.com/2017-10-14_51018.html
+SnowFlake
+https://github.com/twitter-archive/snowflake
+RedisDesktopManager-Windows
+https://github.com/necan/RedisDesktopManager-Windows/releases
+ServiceBusExplorer
+https://github.com/paolosalvatori/ServiceBusExplorer
+Test
+https://progressbar.tw/posts/34
+Domain-Driven-Design-Example C#
+https://github.com/zkavtaskin/Domain-Driven-Design-Example
+BrokeredMessage Example
+https://github.com/Azure/azure-sdk-for-net/blob/master/sdk/servicebus/Microsoft.Azure.ServiceBus/tests/MessageTests.cs
+Azure Functions V2 – KeyVault and IConfiguration
+http://marcelegger.net/azure-functions-v2-keyvault-and-iconfiguration
+Performing Constructor Injections on Azure Functions V2
+https://devkimchi.com/2019/02/22/performing-constructor-injections-on-azure-functions-v2/
+SQL Merge
+https://www.mssqltips.com/sqlservertip/1704/using-merge-in-sql-server-to-insert-update-and-delete-at-the-same-time/
+http://vito-note.blogspot.com/2013/05/output-merge.html
+Check IEnumerable is Null or Empty
+https://stackoverflow.com/questions/5047349/how-to-check-if-ienumerable-is-null-or-empty
+What is SPA
+https://blog.techbridge.cc/2017/09/16/frontend-backend-mvc/
+Nine Performance Tips for Azure App Services
+https://www.telerik.com/blogs/nine-performance-tips-for-azure-app-services
+Sharing Cookies and Tokens between OWIN and .NET Core
+https://long2know.com/2017/05/sharing-cookies-and-tokens-between-owin-and-net-core/
+Redis Stream 簡介
+https://yq.aliyun.com/articles/495531
+Unit Test: Stub vs Mock
+.NET Core微服務之服務間的呼叫方式（REST and RPC）
+https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/417478/
+Redis 系列 C# 存取 Redis
+https://jed1978.github.io/2018/05/11/Redis-Programming-CSharp-Basic-1.html
+Using StackExchange.Redis in a ASP.NET Core Controller
+https://stackoverflow.com/questions/46368234/using-stackexchange-redis-in-a-asp-net-core-controller
+Microsoft: Integration Test
+https://docs.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-2.2
+Unit Test Mock for HttpClient
+https://gingter.org/2018/07/26/how-to-mock-httpclient-in-your-net-c-unit-tests/
+Mocking HttpClient in unit tests
+https://stackoverflow.com/questions/36425008/mocking-httpclient-in-unit-tests
+Using WebApplicationFactory with NUnit
+https://medium.com/@daniel.edwards_82928/using-webapplicationfactory-with-nunit-817a616e26f9
+Acheve.TestHost
+https://github.com/Xabaril/Acheve.TestHost
+How to unit test a class that consumes an HttpClient with IHttpClientFactory in ASP.NET Core?
+http://anthonygiretti.com/2018/09/06/how-to-unit-test-a-class-that-consumes-an-httpclient-with-ihttpclientfactory-in-asp-net-core/
+https://www.cjavapy.com/article/150/
+https://koukia.ca/integration-testing-in-asp-net-core-2-0-51d14ede3968
+https://www.domstamand.com/testing-a-webapi-in-net-core-with-integration-tests/
+在 .NET Core 與 .NET Framework 上使用 HttpClientFactory  
+https://blog.yowko.com/httpclientfactory-dotnet-core-dotnet-framework/  
+Changing a default request header for HttpClient  
+https://stackoverflow.com/questions/52810955/changing-a-default-request-header-for-httpclient  
+C# 7.1 的 Async Main()  
+https://dotblogs.com.tw/aspnetshare/2017/08/10/asyncmain  
+xUnit.net Cheat Sheet for NUnit Users  
+https://improveandrepeat.com/2018/03/xunit-net-cheat-sheet-for-nunit-users/  
+Implementing the Singleton Pattern in C#  
+https://csharpindepth.com/articles/singleton  
+N+1 Selection Problem  
+https://stackoverflow.com/questions/97197/what-is-the-n1-selects-problem-in-orm-object-relational-mapping
+SlackOverflow - Dark  
+https://github.com/StylishThemes/StackOverflow-Dark  
+Domain Service & App Service  
+https://blog.csdn.net/abchywabc/article/details/79362975  
+IOptions  
+https://riptutorial.com/asp-net-core/example/14177/the-options-pattern---injecting-options-into-services  
+CSRF  
+https://blog.techbridge.cc/2017/02/25/csrf-introduction/  
+不要用JWT替代session管理（上）：全面了解Token,JWT,OAuth,SAML,SSO  
+https://zhuanlan.zhihu.com/p/38942172  
+CQRS Example  
+https://github.com/EduardoPires/EquinoxProject  
+Azure Functions Core Tools
+https://docs.microsoft.com/zh-tw/azure/azure-functions/functions-run-local
+CQRS
+https://zhuanlan.zhihu.com/p/38968012
+dotnet build
+https://docs.microsoft.com/zh-tw/dotnet/core/rid-catalog
+How automatically getting Token in postman
+https://stackoverflow.com/questions/50907041/how-automatically-getting-token-in-postman
+HttpClient
+https://github.com/MicrosoftDocs/azure-docs/issues/22359
+Azure Function DI Logger would not show  
+https://github.com/Azure/Azure-Functions/issues/1256  
+https://github.com/Azure/azure-functions-host/issues/4425  
+C# Get method name from async method  
+https://stackoverflow.com/questions/2652460/how-to-get-the-name-of-the-current-method-from-code  
+https://stackoverflow.com/questions/41153628/using-reflection-to-get-method-name-inside-an-async-method-does-not-return-expec?noredirect=1&lq=1  
+ASP.NET Core ILogger Factory 自訂
+https://asp.net-hacker.rocks/2017/05/05/add-custom-logging-in-aspnetcore.html
+Decimal vs Double and Other Tips About Number Types in C#
+https://exceptionnotfound.net/decimal-vs-double-and-other-tips-about-number-types-in-net/
+Run Function App on Different Ports
+https://stackoverflow.com/questions/44976890/how-to-run-azure-function-app-on-a-different-port-in-visual-studio
+Task.WaitAll vs Task.WhenAll
+http://marcus116.blogspot.com/2019/02/c-task-waitall-whenall.html
+https://stackoverflow.com/questions/47752/remove-duplicates-from-a-listt-in-c-sharp
+https://blog.yowko.com/timezoneinfo-time-zone-id-not-found/
+https://stackoverflow.com/questions/4578260/how-to-find-all-duplicate-from-a-liststring
+https://stackoverflow.com/questions/27423059/how-do-i-clear-tracked-entities-in-entity-framework
+Server=jti-prd.database.windows.net;Database=JgtGis;User ID=web-jgt-gis;Password=EUbP2P2aEk4FcGWufE8epdbT;
+d860321b
+--34 dj
+--35 jbb
+--36 kc
+--37 yc
+--38 jz
+https://stackoverflow.com/questions/48329974/azure-function-publish-fails-with-message-web-deploy-cannot-modify-the-file-on
+J個才對
+https://stackoverflow.com/questions/51700538/what-is-going-wrong-with-web-deployment-from-visual-studio-and-app-service
+Asp.Net MVC Attribute Routing
+http://kevintsengtw.blogspot.com/2013/12/aspnet-mvc-attribute-routing.html
+https://devblogs.microsoft.com/aspnet/attribute-routing-in-asp-net-mvc-5/#route-constraints
+Call asynchronous method in constructor?
+https://stackoverflow.com/questions/23048285/call-asynchronous-method-in-constructor
+https://blog.stephencleary.com/2013/01/async-oop-2-constructors.html
+Dapper
+https://dotblogs.com.tw/oldnick/2018/01/15/dapper
+https://exceptionnotfound.net/using-dapper-asynchronously-in-asp-net-core-2-1/
+ObjectCache & MemoryCache 使用方式
+http://zerotiem22.blogspot.com/2018/03/c-cache_27.html
+Keyboard shortcut to delete a row in Excel
+https://support.microsoft.com/en-ae/help/4026172/excel-keyboard-shortcut-to-delete-a-row-in-excel
+Use the Command Line to Easily Create a List of Your Personal Files- Your Music, Your Pictures or Whatever
+https://www.techsupportalert.com/content/use-command-line-easily-create-list-your-personal-files-your-music-your-pictures-or-whatever
+C# Join
+https://docs.microsoft.com/zh-tw/dotnet/csharp/linq/perform-inner-joins
+Parallel.Foreach MaxDegreeOfParallelism
+https://stackoverflow.com/questions/9290498/how-can-i-limit-parallel-foreach
+VSCode Format code
+https://stackoverflow.com/questions/29973357/how-do-you-format-code-in-visual-studio-code-vscode
+Dapper 自定義欄位對應的三種方式
+https://dotblogs.com.tw/supershowwei/2016/08/16/175753
+Rename brack on local and remote
+https://gist.github.com/lttlrck/9628955  
+Azure Table Column Size
+https://stackoverflow.com/questions/44840195/limit-to-the-column-size-in-azure-table
+重構筆記
+https://blog.darkthread.net/blog/refactoring-notes-3/
+Git remote branch modify name
+https://gist.github.com/lttlrck/9628955
