@@ -1,11 +1,10 @@
 ---
-title: 20200524
+title: 在 DateTime、DateTimeOffset、 TimeSpan 和 TimeZoneInfo 之間選擇
 tags:
-  - 工作
-category:
-  - 工作日誌
   - C#
   - DateTime
+category:
+  - 程式語言
 date: 2020-05-24 15:59:28
 ---
 ## 在 DateTime、DateTimeOffset、 TimeSpan 和 TimeZoneInfo 之間選擇
