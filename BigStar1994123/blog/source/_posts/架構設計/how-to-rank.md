@@ -1,6 +1,7 @@
 ---
 title: 如何在遊戲伺服器實作排行榜
 tags:
+  - Game
   - 排行榜
 category:
   - 架構設計
