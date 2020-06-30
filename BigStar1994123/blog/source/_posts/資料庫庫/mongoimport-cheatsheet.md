@@ -1,12 +1,9 @@
 ---
 title: MongoImport Cheatsheet
 tags:
-  - 工作
   - MongoDB
 category:
-  - 工作日誌
-  - 2018
-  - 10月
+  - 資料庫庫
 date: 2018-10-02 10:27:58
 ---
 # MongoDb Import 語法暫存 #

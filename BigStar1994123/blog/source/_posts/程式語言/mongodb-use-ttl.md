@@ -1,13 +1,11 @@
 ---
-title: Use TTL(Time To Live) in MongoDB
+title: Use TTL(Time To Live) in MongoDB C# Driver
 tags:
-  - 工作
   - MongoDB
   - TTL
+  - C#
 category:
-  - 工作日誌
-  - 2018
-  - 10月
+  - 程式語言
 date: 2018-10-16 13:50:26
 ---
 # 在 MongoDB 內使用 TTL #

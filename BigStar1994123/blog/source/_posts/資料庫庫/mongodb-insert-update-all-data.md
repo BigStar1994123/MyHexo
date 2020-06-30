@@ -1,12 +1,9 @@
 ---
 title: MongoDB insert/update all data
 tags:
-  - 工作
   - MongoDB
 category:
-  - 工作日誌
-  - 2018
-  - 10月
+  - 資料庫庫
 date: 2018-10-18 10:11:21
 ---
 # MongoDB 的一些 Script #

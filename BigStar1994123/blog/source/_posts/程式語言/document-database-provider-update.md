@@ -1,13 +1,10 @@
 ---
 title: Document Database Providers Update
 tags:
-  - 工作
   - EntityFramework
   - Document Database Providers
 category:
-  - 工作日誌
-  - 2018
-  - 10月
+  - 程式語言
 date: 2018-10-23 11:01:36
 ---
 # MongoDb EntityFramework Provider 更新之後要改好多東西 #

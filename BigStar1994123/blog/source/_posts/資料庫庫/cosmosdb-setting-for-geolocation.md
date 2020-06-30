@@ -1,12 +1,9 @@
 ---
 title: CosmosDB Setting for GeoLocation
 tags:
-  - 工作
   - Azure CosmosDB
 category:
-  - 工作日誌
-  - 2018
-  - 10月
+  - 資料庫庫
 date: 2018-10-19 11:30:49
 ---
 # 好像直接用這個當 CosmosDB BravoPoint 設定即可 #

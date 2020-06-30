@@ -1,13 +1,10 @@
 ---
 title: C# List Except 需要使用自訂的 IEqualityComparer 去比對
 tags:
-  - 工作
   - C#
   - List
 category:
-  - 工作日誌
-  - 2018
-  - 10月
+  - 程式語言
 date: 2018-10-18 10:11:21
 ---
 # List.Except 使用 Custom Class 做比對 #

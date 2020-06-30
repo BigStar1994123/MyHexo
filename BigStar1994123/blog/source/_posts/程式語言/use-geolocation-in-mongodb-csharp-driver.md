@@ -1,13 +1,10 @@
 ---
 title: 在 MongoDB C# Drvier 使用 GeoLocation
 tags:
-  - 工作
   - C#
   - MongoDB
 category:
-  - 工作日誌
-  - 2018
-  - 10月
+  - 程式語言
 date: 2018-10-03 12:44:02
 ---
 # GeoLocation in MongoDb C# Driver #

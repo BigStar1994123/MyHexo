@@ -1,13 +1,10 @@
 ---
 title: HTTP 狀態碼、軟體開發狀態
 tags:
-  - 工作
   - HTTP
   - Deployment Environment
 category:
-  - 工作日誌
-  - 2018
-  - 10月
+  - 架構設計
 date: 2018-10-12 10:15:37
 ---
 # 隨便寫寫 #

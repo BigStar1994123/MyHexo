@@ -1,13 +1,10 @@
 ---
 title: C# 取代 IF 的 Boolean Check 方式
 tags:
-  - 工作
   - C#
   - Boolean
 category:
-  - 工作日誌
-  - 2018
-  - 10月
+  - 程式語言
 date: 2018-11-01 11:36:02
 ---
 # C# 取代 if 內的 boolean check #

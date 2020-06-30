@@ -1,13 +1,10 @@
 ---
 title: C# Random 的範圍
 tags:
-  - 工作
   - C#
   - Random
 category:
-  - 工作日誌
-  - 2018
-  - 10月
+  - 程式語言
 date: 2018-10-03 12:44:02
 ---
 # Random的範圍 #

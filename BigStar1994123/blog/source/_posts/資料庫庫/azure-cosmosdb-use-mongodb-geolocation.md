@@ -1,13 +1,10 @@
 ---
 title: Azure CosmosDB 使用 MongoDB Geolocation
 tags:
-  - 工作
   - MongoDB
   - Azure CosmosDB
 category:
-  - 工作日誌
-  - 2018
-  - 10月
+  - 資料庫庫
 date: 2018-10-17 16:42:52
 ---
 # Azure CosmosDB 使用 MongoDB GeoLocation功能 #

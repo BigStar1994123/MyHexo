@@ -1,13 +1,11 @@
 ---
-title: MongoDB 的一些東西
+title: MongoDB C# Driver 的一些東西
 tags:
   - 工作
   - MongoDB
   - Document Database Providers
 category:
-  - 工作日誌
-  - 2018
-  - 10月
+  - 程式語言
 date: 2018-10-22 15:59:56
 ---
 # MongoDB #
